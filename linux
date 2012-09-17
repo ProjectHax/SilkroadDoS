@@ -1,0 +1,1 @@
+g++ -std=c++0x -O3 -lboost_random -lpthread -o SilkroadDoS SilkroadDoS/SilkroadDoS.cpp SilkroadDoS/shared/blowfish.cpp SilkroadDoS/shared/silkroad_security.cpp SilkroadDoS/shared/stream_utility.cpp

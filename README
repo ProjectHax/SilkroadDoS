@@ -1,0 +1,17 @@
+SilkroadDoS - vSRO Servers
+
+(C++) This exploit works by sending packets with a null opcode into the GatewayServer/AgentServer after completing
+the handshake process. When the server receives the packets it displays an error message saying it has an
+unhandled opcode. By spamming the server these messages are written to the log thousands of times until
+no memory is left and then the server dies.
+
+(Ruby) The next method is to spam the server with tons of connections and send an opcode before the handshake
+completes. Although less effective, this also creates tons of messages in the log and will eventually
+kill the server.
+
+Requirements:
+VC++ 2010 / Linux gcc
+Boost (random.hpp)
+Ruby
+
+I AM NOT RESPONSIBLE FOR HOW THIS SOFTWARE IS USED.

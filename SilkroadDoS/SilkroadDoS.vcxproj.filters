@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SilkroadDoS.cpp" />
+    <ClCompile Include="shared\blowfish.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\silkroad_security.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\stream_utility.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{a1750699-ef2f-4e2b-9806-3b4082c2b62b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shared\blowfish.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\silkroad_security.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\stream_utility.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
