@@ -4,6 +4,8 @@ SilkroadDoS - vSRO Servers
 
 (Ruby) The next method is to spam the server with tons of connections and send an opcode before the handshake completes. Although less effective, this also creates tons of messages in the log and will eventually kill the server.
 
+If you have enough bandwidth the server will die even if the server is patched no matter if the log messages are being displayed or not.
+
 Requirements:
 VC++ 2010 / Linux gcc
 Boost (random.hpp)
